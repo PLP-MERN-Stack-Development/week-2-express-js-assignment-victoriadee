@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+     "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/PLP-MERN-Stack-Development/week-2-express-js-assignment-victoriadee/issues"
   },
-  "homepage": "https://github.com/PLP-MERN-Stack-Development/week-2-express-js-assignment-victoriadee#readme"
+  "homepage": "https://github.com/PLP-MERN-Stack-Development/week-2-express-js-assignment-victoriadee#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
